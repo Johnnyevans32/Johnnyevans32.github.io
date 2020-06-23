@@ -2670,7 +2670,7 @@ STYLE SWITCHER FOR DEMO
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(#c94b4b,#4b134f);
+	background:url(../images/header.png);
 	background-size: cover;
 }
 
