@@ -25,32 +25,42 @@
   </head>
   <body>
     <style type="text/css">
-      .rec{
+      @media only screen and (min-width:1000px){
+        .carts::before{
+          display: none;
+        }
+        .carts::after{
+          display: none;
+        }
+      }
+
+     .carts::before{
         content: '';
-        position: inherit;
+        position: absolute;
         width: 9px;
         height: 131px;
-        left: 90;
-        top: 134px;
+        left: -32px;
+        top: 4px;
         background-color:#FA9803;
       }
-      .rec2{
+      .carts::after{
         content: '';
-        position: inherit;
+        position: absolute;
         width: 7px;
         height: 180.55px;
-        left: 130px;
-        top: 167.29px;
+        left: 55px;
+        top: 42.29px;
         background-color:#FA9803;
         transform: rotate(-90deg);
       }
+
     </style>
     <div class="page-holder">
       <!-- navbar-->
       <header class="header bg-white">
         <div class="container px-0 px-lg-3">
           <nav class="navbar navbar-expand-lg navbar-light py-3 px-lg-0">
-            <h2 class="h5 lined text-dark mb-4" style="font-family: Alako-Bold">Garmenor</h2>
+            <a href="#"><img src="img/garmenor.svg"></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             	<span class="navbar-toggler-icon"></span>
             </button>
@@ -83,13 +93,11 @@
         </div>
       </header> 
       <div class="container">
-        <div class="rec"></div>
-        <div class="rec2"></div>
-        <section class="cart py-5 bg-light">
-          <div class="container">
+        <section class="py-5 bg-light">
+          <div class=" container">
             <div class="row px-4 px-lg-5 py-lg-4 align-items-center">
               <div class="col-lg-6">
-                <h1 class="h2 text-uppercase mb-0">Cart</h1>
+                <h1 class="carts h2 text-uppercase mb-0">Cart</h1>
               </div>
               <div class="col-lg-6 text-lg-right">
                 <nav aria-label="breadcrumb">
@@ -204,7 +212,7 @@
         <div class="container py-4">
           <div class="row py-5">
             <div class="col-lg-3 mb-4 mb-lg-0">
-              <h2 class="h5 lined text-white mb-4" style="font-family: Alako-Bold">Garmenor</h2>
+              <a href="#"><img src="img/garmenor.svg"></a>
             </div>
             <div class="col-lg-3 text-white mb-4 mb-lg-0">
               <h2 class="h5 text-white lined mb-4">COMPANY</h2>

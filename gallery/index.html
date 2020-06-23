@@ -22,86 +22,56 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link href="css/styles.css" rel="stylesheet">
 	
 	<!-- Favicon  -->
     <link rel="icon" href="images/logo-1.svg">
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
-    
-    <!-- Preloader -->
-	<div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
-    </div>
     <!-- end of preloader -->
-    
-
-    <!-- Navbar -->
-    <!-- Primary Navbar-->
-    <nav class="navbar navbar-expand-lg py-4 " style="background-color: black">
-        <div class="container d-flex align-items-center justify-content-beween" style="padding-top: 0;padding-bottom: 0;">
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-lg na py-4 border-bottom border-gray bg-dark">
+        <div class="container d-flex align-items-center justify-content-beween">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-align-left" style="color:white;"></i></button>
           <ul class="list-inline mb-0 d-none d-lg-block">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="" href="#">
-                        <img class="phone img-fluid" src="assets/images/phone.png" alt=""> (+234) 345-4569
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="" href="#">
-                        <img class="phone img-fluid" src="assets/images/mail.ico" alt=""> info@barbershop.com
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="" href="#">
-                        <img class="phone img-fluid" src="assets/images/facebook.png" alt="">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="" href="#">
-                        <img class="phone img-fluid" src="assets/images/twitter.png" alt="">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="" href="#">
-                        <img class="phone img-fluid" src="assets/images/instagram.png" alt="">
-                    </a>
-                </li>
-            </ul>
             <li class="list-inline-item mr-3">
-                <span class="nav-item social-icons">
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-twitter fa-stack-1x"></i>
-                        </a>
-                    </span>
-                </span>
-            </li>
-            <li class="list-inline-item mr-3 text-right">
-                <a class="nav-link bg-primary text-white d-inline-block text-right" style="text-decoration: none;" href="contact.html">Book Appointment</a></li>
+                    <a class="" href="#"><i class="fas fa-headphones-alt h4 text-muted"></i> (+234) 345-4569
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="" href="#">
+                        <i class="fas fa-headphones-alt h4 text-muted"></i>info@barbershop.com
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="social-link" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="social-link" href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="social-link" href="#">
+                    <i class="fab fa-google-plus"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="social-link" href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
           </ul>
         </div>
-    </nav>
+      </nav>
       <!-- Secondary Navbar                -->
-    <nav class="navbar navbar-expand-lg navbar-light py-0 shadow-sm " style="background-color: black">
+      <nav class="navbar navbar-expand-lg py-0 shadow-sm bg-dark">
         <div class="container">
-          <div class="collapse navbar-collapse py-3 py-lg-0 text-center" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto" >
+          <div class="collapse navbar-collapse py-3 py-lg-0" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link"style="text-decoration: none;" href="#">HOME <span class="sr-only">(current)</span></a>
                 </li>
@@ -112,12 +82,12 @@
                 <li class="nav-item"><a class="nav-link"style="text-decoration: none;" href="#">PRICING</a></li>
                 <li class="nav-item"><a class="nav-link" style="text-decoration: none;"href="#">GALLERY</a></li>
             </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link px-4 bg-primary text-white d-inline-block" href="contact.html">Book Appointment</a></li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </div>
-    <!-- end of navbar -->
-
+      </nav> 
 
     <!-- Header -->
     <header id="header" class="header">
@@ -126,7 +96,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="text-container text-center">
-                            <h3 style="font-size: 5rem;">GALLERY</h3>
+                            <h1 style="margin-top: 100px;">GALLERY</h1>
                         </div>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -243,41 +213,36 @@
     <footer class="footer" style="background-color: black">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 mb-4 mb-lg-0">
-            <h2 class="h5 lined text-white mb-4">About</h2>
-            <p class="text-muted text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-            <p class="text-muted text-small">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-google-plus"></i></a></li>
-              <li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-          </div>
-          <div class="col-lg-5 mb-4 mb-lg-0">
-            <h2 class="h5 text-white lined mb-4">Quick Links</h2>
-            <div class="d-flex">
-              <ul class="list-unstyled d-inline-block mr-4 mb-0">
-                <li class="mb-2"><a class="footer-link" href="#">Random</a></li>
-                <li class="mb-2"><a class="footer-link" href="#">Random</a></li>
-                <li class="mb-2"><a class="footer-link" href="#">Random</a></li>
-                <li class="mb-2"><a class="footer-link" href="#">Random</a></li>
-              </ul>
-              <ul class="list-unstyled d-inline-block mb-0">
-                <li class="mb-2"><a class="footer-link" href="#">Random</a></li>
-                <li class="mb-2"><a class="footer-link" href="#">Random</a></li>
-                <li class="mb-2"><a class="footer-link" href="#">Random</a></li>
-                <li class="mb-2"><a class="footer-link" href="#">Random</a></li>
-              </ul>
+           <div class="col-md-3">
+                <h5>FIERCE CUTS</h5>
+                <ul class="list-unstyled text-small">
+                    <br>
+                    <li><h6>ADDRESS</h6></li>
+                    <li class="text-muted">13B Reid road, Lagos Cresent,<br> Lagos.</li>
+                    <br>
+                    <li><h6>HOURS:</h6></li>
+                    <li class="text-muted">MONDAY - FRIDAY: 9 AM - 5 PM</li>
+                    <li class="text-muted">SATURDAY & SATURDAY: 8 AM - 10 PM</li>
+                    <br>
+                </ul>
             </div>
-          </div>
+            <div class="col-md-3">
+                <ul class="list-unstyled text-small quick-links">
+                    <li class="mb-2"><a class="footer-link" href="#">ABOUT US</a></li>
+                    <li class="mb-2"><a class="footer-link" href="#">CONTACT US</a></li>
+                    <li class="mb-2"><a class="footer-link" href="#">PRICING</a></li>
+                    <li class="mb-2"><a class="footer-link" href="#">GALLERY</a></li>
+                    <li class="mb-2"><a class="footer-link" href="#">CAREERS</a></li>
+                    <br>
+                </ul>
+            </div>
           <div class="col-lg-4">
             <h2 class="h5 text-white lined mb-4">Newsletter</h2>
             <p class="text-muted text-small">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
             <div class="input-group mb-3">
               <input class="form-control text-muted bg-none border-primary" type="text" placeholder="Email address" aria-label="Recipient's username" aria-describedby="button-addon2">
               <div class="input-group-append">
-                <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                <button class="btn btn-primary btn-sm" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
               </div>
             </div>
           </div>
